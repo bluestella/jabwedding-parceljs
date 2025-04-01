@@ -4,7 +4,6 @@
   "description": "",
   "source": "src/index.html",
   "dependencies": {
-    "parcel": "^2.14.4",
     "tailwindcss": "^4.0.9"
   },
   "scripts": {
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/bluestella/jabwedding-parceljs#readme",
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.17"
+    "@tailwindcss/postcss": "^4.0.17",
+    "parcel": "^2.14.4"
   }
 }
