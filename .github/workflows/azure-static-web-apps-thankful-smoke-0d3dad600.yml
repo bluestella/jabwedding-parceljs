@@ -25,6 +25,8 @@ jobs:
         run: npm ci
       - name: check parcel version
         run: parcel --version
+      - name: Install Parcel
+        run: npm install parcel@^2.14.4 --save-dev
       - name: build parceljs
         run: parcel build src/index.html
       - name: Build And Deploy
