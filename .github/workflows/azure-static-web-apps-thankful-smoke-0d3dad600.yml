@@ -21,12 +21,12 @@ jobs:
           lfs: false
       - name: check node version
         run: node -v
+      - name: Install Parcel
+        run: npm install parcel@^2.14.4 --save-dev
       - name: Install Dependencies
         run: rm -rf node_modules && npm install
       - name: check parcel version
         run: parcel --version
-      - name: Install Parcel
-        run: npm install parcel@^2.14.4 --save-dev
       - name: build parceljs
         run: parcel build src/index.html
       - name: Build And Deploy
