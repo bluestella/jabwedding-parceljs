@@ -25,6 +25,8 @@ jobs:
         run: rm -rf node_modules && rm package-lock.json && npm install
       - name: check parcel version
         run: parcel --version
+      - name: List parcel
+        run: npm list parcel
       - name: build parceljs
         run: parcel build src/index.html
       - name: Build And Deploy
