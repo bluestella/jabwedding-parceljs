@@ -5,7 +5,8 @@
   "source": "src/index.html",
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.9",
-    "tailwindcss": "^4.0.9"
+    "tailwindcss": "^4.0.9",
+    "parcel": "^2.14.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
