@@ -1,0 +1,20 @@
+{
+  "name": "jabwedding-parceljs",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluestella/jabwedding-parceljs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluestella/jabwedding-parceljs/issues"
+  },
+  "homepage": "https://github.com/bluestella/jabwedding-parceljs#readme"
+}
