@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "tailwindcss": "^4.0.9"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
