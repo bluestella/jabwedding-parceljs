@@ -19,16 +19,16 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: check node version
-        run: node -v
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
       - name: Install Dependencies
-        run: rm -rf node_modules && rm package-lock.json && npm install
-      - name: check parcel version
-        run: parcel --version
-      - name: List parcel
-        run: npm list parcel
-      - name: build parceljs
-        run: parcel build src/index.html
+        run: npm ci
+      - name: Clear Cache
+        run: npm cache clean --force
+      - name: Build with Parcel
+        run: npx parcel build src/index.html
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
