@@ -19,6 +19,10 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: install parcel
+        run: npm install parcel
+      - name: install tailwindcss
+        run: npm install tailwindcss @tailwindcss/postcss
       - name: build parceljs
         run: parcel build src/index.html
       - name: Build And Deploy
