@@ -21,6 +21,8 @@ jobs:
           lfs: false
       - name: npm install
         run: npm install -g
+      - name: npm install tailwindcss
+        run: npm install -g tailwindcss @tailwindcss/postcss
       - name: build parceljs
         run: parcel build src/index.html
       - name: Build And Deploy
