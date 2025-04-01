@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bluestella/jabwedding-parceljs#readme",
   "devDependencies": {
+    "@parcel/reporter-dev-server": "^2.14.4",
     "@tailwindcss/postcss": "^4.0.17",
     "autoprefixer": "^10.4.21",
     "parcel": "^2.14.4",
