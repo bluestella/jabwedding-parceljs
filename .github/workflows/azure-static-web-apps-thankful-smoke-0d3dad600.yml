@@ -23,6 +23,8 @@ jobs:
         run: npm ci && npm install
       - name: Clear Cache
         run: npm cache clean --force
+      - name: Parcel clean
+        run: parcel clean
       - name: Build with Parcel
         run: npx parcel build src/index.html
       - name: Build And Deploy
