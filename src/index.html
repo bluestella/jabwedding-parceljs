@@ -31,7 +31,9 @@
                         <!--
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm1-13h-2v6h2zm-1 8.5a1.25 1.25 0 1 0 1.25 1.25A1.25 1.25 0 0 0 12 15.5z"/></svg>
                     -->
-                        <span class="mt-1">Notifications</span>
+                        <span class="mt-1">
+                            <a href="#notif" class="transition duration-300 ease-in-out transform hover:translate-y-1">Notif</a>
+                        </span>
                     </a>
                     <a href="#" class="flex flex-col items-center text-gray-600 hover:text-blue-500">
                         <!--
@@ -57,7 +59,7 @@
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3l-10-9-10 9h3v8z"/></svg>
                 <span class="text-xs mt-1">Home</span>
             </a>
-            <a href="#" class="flex flex-col items-center text-gray-600 hover:text-blue-500">
+            <a href="#notif" class="flex flex-col items-center text-gray-600 hover:text-blue-500">
                 <svg class="w-6 h-6" fill="currenstColor" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm1-13h-2v6h2zm-1 8.5a1.25 1.25 0 1 0 1.25 1.25A1.25 1.25 0 0 0 12 15.5z"/></svg>
                 <span class="text-xs mt-1">Notifications</span>
             </a>
@@ -81,7 +83,7 @@
     <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
         <h1 class="text-4xl md:text-6xl font-bold">We Are Getting Married!</h1>
         <p class="mt-4 text-lg md:text-xl max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Two hearts, one domain—come celebrate with us!
         </p>
     </div>
 </div>
@@ -166,16 +168,27 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.2523978133712!2d120.8358483642969!3d14.057443324816393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd9c26637ae0a1%3A0x469e957a8a28f790!2sDon%20Bosco%20Chapel%20on%20the%20Hill!5e0!3m2!1sen!2sph!4v1743472191897!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <!-- Church Details -->
-    <div class="w-full md:w-1/2 flex flex-col justify-center">
+    <div id="notif" class="pt-5 md:w-1/2 flex flex-col justify-center">
         <h2 class="text-3xl font-bold text-center md:text-left mb-6">Where We'll Take Our Vows</h2>
-        <p class="text-lg text-gray-700 text-center md:text-left">
+        <div class="text-lg text-gray-700 text-center md:text-left">
             <h3 class="font-bold">Chapel on the Hill</h3>
-            <span>
-                Don Bosco Batulao, Brgy. Cahil, Calaca Batangas
-            </span>
-            <strong>Date:</strong> December 9, 2025<br>
-            <strong>Time:</strong> 4:00 PM - 6:00 PM<br>
-            <strong>Dress Code:</strong> Formal Attire
+            <div class="text-center md:text-left">
+                <p class="text-lg text-gray-700">
+                    <span class="block font-medium">Don Bosco Batulao, Brgy. Cahil, Calaca Batangas</span>
+                </p>
+                <p class="text-lg text-gray-700 mt-2">
+                    <strong class="block text-gray-800">📅 Date:</strong> 
+                    <span class="text-gray-600">December 9, 2025</span>
+                </p>
+                <p class="text-lg text-gray-700 mt-2">
+                    <strong class="block text-gray-800">🕒 Time:</strong> 
+                    <span class="text-gray-600">4:00 PM - 6:00 PM</span>
+                </p>
+                <p class="text-lg text-gray-700 mt-2">
+                    <strong class="block text-gray-800">Dress Code:</strong> 
+                    <span class="text-gray-600">Formal Attire</span>
+                </p>
+            </div>
             <div class="swatches flex flex-row justify-center md:justify-start mt-4 gap-3">
                 <div class="swatch bg-orange-100 rounded-full w-10 h-10"></div>
                 <div class="swatch bg-orange-200 rounded-full w-10 h-10"></div>
@@ -183,7 +196,7 @@
                 <div class="swatch bg-orange-500 rounded-full w-10 h-10"></div>
                 <div class="swatch bg-orange-600 rounded-full w-10 h-10"></div>
             </div>
-        </p>
+        </div>
         <div class="mt-10 flex flex-row md:text-center md:justify-center">
             <div class="mr-5">
                 <a href="https://waze.com/ul?ll=14.057443324816393,120.8358483642969&navigate=yes" target="_blank">
@@ -239,19 +252,6 @@
             Explore nearby Airbnb rentals for a comfortable stay during the wedding. 
             <a href="https://www.airbnb.com/s/Batangas--Philippines/homes?adults=2" target="_blank" class="text-blue-500 hover:underline">Click here to view options on Airbnb</a>.
         </p>
-    </div>
-    <div class="mt-8">
-        <h3 class="text-2xl font-bold mb-4 text-center">Nearby Hotels on Booking.com and Agoda</h3>
-        <div class="flex flex-col md:flex-row justify-center gap-8">
-            <!-- Booking.com Map -->
-            <div class="w-full md:w-1/2">
-                <iframe src="https://www.booking.com/maps.en-gb.html?aid=304142&ss=Batangas%2C+Philippines" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <!-- Agoda Map -->
-            <div class="w-full md:w-1/2">
-                <iframe src="https://www.agoda.com/maps?city=Batangas" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
     </div>
 </div>
  <!-- Entourage -->
